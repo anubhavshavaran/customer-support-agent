@@ -1,0 +1,40 @@
+{
+  "brand": "AmazonHelp",
+  "golden_examples": 200,
+  "train_examples": 23757,
+  "classification": [
+    {
+      "model": "majority",
+      "accuracy": 0.125,
+      "macro_f1": 0.0278,
+      "balanced_accuracy": 0.125
+    },
+    {
+      "model": "keyword_rules",
+      "accuracy": 0.74,
+      "macro_f1": 0.7342,
+      "balanced_accuracy": 0.74
+    },
+    {
+      "model": "tfidf_logistic",
+      "accuracy": 0.925,
+      "macro_f1": 0.925,
+      "balanced_accuracy": 0.925
+    }
+  ],
+  "agent_intent_accuracy": 0.925,
+  "routing_accuracy": 0.925,
+  "auto_rate": 0.77,
+  "auto_intent_accuracy": 0.9351,
+  "reply_quality_mean": 4.162,
+  "reply_quality_by_dimension": {
+    "relevance": 3.99,
+    "groundedness": 3.83,
+    "helpfulness": 3.6,
+    "tone": 4.39,
+    "safety": 5.0
+  },
+  "judge_human_quadratic_kappa": 0.1209,
+  "judge_calibration_examples": 30,
+  "judge_mode": "offline_rubric_proxy"
+}

@@ -1,0 +1,17 @@
+{
+  "brand": "AmazonHelp",
+  "source": "data/raw/twcs.csv",
+  "cases": 24000,
+  "golden_examples": 200,
+  "intents": {
+    "delivery_issue": "late, missing, delayed, or tracking a package",
+    "order_change": "canceling, changing, or checking an order or pre-order",
+    "return_refund": "returns, refunds, damaged items, replacements, or wrong items",
+    "account_membership": "account access, login, Prime, or membership settings",
+    "device_app_issue": "Kindle, Fire TV, Alexa, Echo, app, or device trouble",
+    "billing_payment": "unknown charges, payment methods, billing, or card issues",
+    "product_information": "product availability, features, content, or policy questions",
+    "general_complaint": "feedback, frustration, or messages without a clear support task"
+  },
+  "golden_excluded_from_training": true
+}
